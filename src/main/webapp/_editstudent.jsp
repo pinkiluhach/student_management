@@ -18,7 +18,7 @@ charset=utf-8" pageEncoding="utf-8" isELIgnored="false" %>
 <body>
 <div align="center">
     <h1 align="center">Student Details</h1>
-    <form name="editstudent" method="post" action="StudentOperationServlet">
+    <form name="editstudent" method="post" action="StudentUpdateOperationServlet">
         <input type="hidden" name="student_id" value="<c:out value="${student.student_id}"/>"/><br/>
         <table>
             <tbody>

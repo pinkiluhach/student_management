@@ -11,8 +11,8 @@ charset=utf-8" pageEncoding="utf-8" isELIgnored="false" %>
 <body>
 <div align="center">
     <h1 align="center">Select Choice</h1>
-    <a href="add_student.jsp"><input type="button" value="Add Student"></a>
-    <a href="/StudentOperationServlet?action=listStudent">
+    <a href="_addstudent.jsp"><input type="button" value="Add Student"></a>
+    <a href="/StudentListOperationServlet?action=listStudent">
         <input type="button" value="Show Students"></a>
 </div>
 </body>

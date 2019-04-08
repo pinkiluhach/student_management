@@ -2,6 +2,10 @@ package com.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.util.logging.Level;
+
+import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
+
 
 public class DbConnection {
     private static Connection connection = null;
@@ -10,11 +14,12 @@ public class DbConnection {
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            System.out.println("Dirver loaded");
+            LOGGER.info("Dirver loaded");
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_info", "root", "root");
-            System.out.println("Connection established");
+            LOGGER.info("Connection established");
+            LOGGER.fine("DB Connection successfully completed");
         } catch (Exception e) {
-            e.printStackTrace();
+            LOGGER.log(Level.SEVERE, "Error Occur in DB Connection", e);
         }
         return connection;
     }

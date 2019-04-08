@@ -25,7 +25,7 @@ charset=utf-8" pageEncoding="utf-8" isELIgnored="false" %>
             <td>Student Email</td>
             <td>Student Course</td>
             <td>Student Contact Number</td>
-            <td>Action</td>
+            <td colspan="2">Action</td>
         </tr>
         </thead>
         <tbody>
@@ -37,15 +37,16 @@ charset=utf-8" pageEncoding="utf-8" isELIgnored="false" %>
                 <td><c:out value="${student.student_email}"/></td>
                 <td><c:out value="${student.student_course}"/></td>
                 <td><c:out value="${student.student_contact_number}"/></td>
-                <td><a href="/StudentOperationServlet?action=delete&student_id=<c:out value="${student.student_id}"/>">Delete</a>
+                <td>
+                    <a href="/StudentDeleteOperationServlet?student_id=<c:out value="${student.student_id}"/>">Delete</a>
                 </td>
-                <td><a href="/StudentOperationServlet?action=edit&student_id=<c:out value="${student.student_id}"/>">Edit</a>
+                <td><a href="/StudentUpdateOperationServlet?student_id=<c:out value="${student.student_id}"/>">Edit</a>
                 </td>
             </tr>
         </c:forEach>
         </tbody>
     </table>
-    <a href="add_student.jsp">Add Student</a>
+    <a href="_addstudent.jsp">Add Student</a>
 </div>
 </body>
 </html>

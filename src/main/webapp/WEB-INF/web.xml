@@ -6,12 +6,38 @@
   <display-name>Archetype Created Web Application</display-name>
 
     <servlet>
-        <servlet-name>StudentOperationServlet</servlet-name>
-        <servlet-class>com.servlet.StudentOperationServlet</servlet-class>
+        <servlet-name>StudentListOperationServlet</servlet-name>
+        <servlet-class>com.servlet.StudentListOperationServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StudentAddOperationServlet</servlet-name>
+        <servlet-class>com.servlet.StudentAddOperationServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StudentDeleteOperationServlet</servlet-name>
+        <servlet-class>com.servlet.StudentDeleteOperationServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StudentUpdateOperationServlet</servlet-name>
+        <servlet-class>com.servlet.StudentUpdateOperationServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>StudentOperationServlet</servlet-name>
+        <servlet-name>StudentListOperationServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>StudentAddOperationServlet</servlet-name>
+        <url-pattern>/AddServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StudentDeleteOperationServlet</servlet-name>
+        <url-pattern>/DeleteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StudentUpdateOperationServlet</servlet-name>
+        <url-pattern>/UpdateServlet</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>
