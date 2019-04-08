@@ -154,8 +154,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/StudentDeleteOperationServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="224">
+              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -362,7 +362,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554715641628" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554715734289" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -513,7 +513,7 @@
       <workItem from="1554380494260" duration="4481000" />
       <workItem from="1554439903481" duration="28925000" />
       <workItem from="1554527080213" duration="25858000" />
-      <workItem from="1554699552846" duration="13372000" />
+      <workItem from="1554699552846" duration="13904000" />
     </task>
     <task id="LOCAL-00001" summary="1.Use seperate Servlets class files according to CRUD Functionality.&#10;2.Replace System.out.println class with logger class.">
       <created>1554715376746</created>
@@ -522,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554715376747</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.Use seperate Servlets class files according to CRUD Functionality.&#10;2.Replace System.out.println class with logger class.">
+      <created>1554715722381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554715722381</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72636000" />
+    <option name="totallyTimeSpent" value="73168000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,6 +546,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="973" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -724,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/StudentDeleteOperationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="224">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
