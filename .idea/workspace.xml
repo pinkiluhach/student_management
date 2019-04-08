@@ -6,28 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40491f4-c4d6-4b69-b383-6e49580182bc" name="Default Changelist" comment="1.Use seperate Servlets class files according to CRUD Functionality.&#10;2.Replace System.out.println class with logger class.">
+    <list default="true" id="a40491f4-c4d6-4b69-b383-6e49580182bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/DbConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/StudentOperationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/StudentListOperationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/add_student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/_addstudent.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/edit_student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/_editstudent.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/show_students.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/_showstudents.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/DbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/DbConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/servlet/StudentOperationServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/student_management/WEB-INF/classes/com/dao/DbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/student_management/WEB-INF/classes/com/dao/DbConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/student_management/WEB-INF/classes/com/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/student_management/WEB-INF/classes/com/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/student_management/WEB-INF/classes/com/servlet/StudentOperationServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/student_management/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/student_management/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/student_management/add_student.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/student_management/edit_student.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/student_management/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/student_management/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/student_management/show_students.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -139,10 +119,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/StudentDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1235">
+            <state relative-caret-position="-612">
               <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -171,10 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/StudentDeleteOperationServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
+            <state relative-caret-position="357">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -382,7 +362,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554715330465" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554715641628" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -533,12 +513,20 @@
       <workItem from="1554380494260" duration="4481000" />
       <workItem from="1554439903481" duration="28925000" />
       <workItem from="1554527080213" duration="25858000" />
-      <workItem from="1554699552846" duration="13061000" />
+      <workItem from="1554699552846" duration="13372000" />
     </task>
+    <task id="LOCAL-00001" summary="1.Use seperate Servlets class files according to CRUD Functionality.&#10;2.Replace System.out.println class with logger class.">
+      <created>1554715376746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554715376747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72325000" />
+    <option name="totallyTimeSpent" value="72636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,7 +539,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="973" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -559,12 +546,12 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.43797195" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32789558" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32789558" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="3" side_tool="true" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32952693" />
       <window_info anchor="bottom" id="SonarLint" order="5" weight="0.32626426" />
       <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.3284553" />
@@ -713,16 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/StudentDeleteOperationServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/StudentUpdateOperationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -735,12 +712,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
+        <state relative-caret-position="-612">
           <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/StudentDeleteOperationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
